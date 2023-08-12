@@ -1,2 +1,3 @@
 my_age = 40
+my_age = my_age + 3
 print("my age is ", my_age)
