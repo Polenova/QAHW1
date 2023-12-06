@@ -1,0 +1,73 @@
+
+1 Экземпляр capitilize класса StringUtils 
+оставляет первую букву маленькой при наличии пробела перед текстом, 
+а последующие заглавные буквы в тексте делает маленькими.
+
+ОШ: 
+- передать текст в маленькой буквами и пробелом перед текстом  capitilize(" sKYpro").
+ФР: Буквы стали маленькими после заглавной, которая так же осталась маленькой " skypro".
+ОР: Принимает на вход текст, делает первую букву заглавной и возвращает этот же текст.
+
+2 Экземпляр to_list класса StringUtils 
+не разделяет строки по умолчанию при передачи None и пустого значения, в качестве делителя.
+
+ОШ:
+- передать текст с пустым значением разделения через to_list("1,1,0:1:3", "")
+ФР: ValueError: empty separator
+ОР: деление по умолчанию по запятой ["1", "1", "0:1:3"]
+
+ОШ:
+- передать текст с значением None в качестве разделения через to_list("a,n,7", None)
+ФР: 'a,n,7'
+ОР: деление по умолчанию по запятой ["a", "n", "7"]
+
+3 Экземпляры contains, delete_symbol, trim, 
+start_with, end_with, 
+capitilize, is_empty класса StringUtils 
+выбрасывают ошибку при передаче значения None.
+
+ОШ:
+- передать None через capitilize(None)
+- trim(None)
+ФР: ошибка исключение AttributeError
+ОР: ожидаемая ошибка с описанием
+
+ОШ:
+- передать None через trim(None)
+ФР: ошибка исключение AttributeError
+ОР: ожидаемая ошибка с описанием
+
+ОШ:
+- передать None через is_empty(None)
+ФР: ошибка исключение AttributeError
+ОР: True
+
+ОШ:
+- передать текст с None в качестве составляющей в тексте через contains("MariPo", None)
+ФР: TypeError: must be str, not NoneType
+ОР: False
+
+ОШ:
+- передать None через contains(None)
+ФР: TypeError missing 1 required positional argument: 'symbol'
+ОР: False
+
+ОШ:
+- передать текст с None в качестве составляющей в тексте через start_with("MariPo", None)
+ФР: TypeError: startswith first arg must be str or a tuple of str, not NoneType
+ОР: False
+
+ОШ:
+- передать None через start_with(None)
+ФР: TypeError: StringUtils.start_with() missing 1 required positional argument: 'symbol'
+ОР: False
+
+ОШ:
+- передать текст с None в качестве составляющей в тексте через end_with("MariPo", None)
+ФР: TypeError: endswith first arg must be str or a tuple of str, not NoneType
+ОР: False
+
+ОШ:
+- передать None через end_with(None)
+ФР: TypeError: StringUtils.end_with() missing 1 required positional argument: 'symbol'
+ОР: False
