@@ -1,0 +1,21 @@
+{
+  "lesson 4/test_string_utils.py::test_to_list_mark": true,
+  "lesson 4/test_string_utils.py::test_negativ_contains1": true,
+  "lesson 4/test_string_utils.py::test_negativ_contains": true,
+  "lesson 4/test_string_utils.py::test_cap": true,
+  "lesson 4/test_string_utils_1.py::test_negative_to_list": true,
+  "lesson 4/test_string_utils_1.py::test_negative_starts_with": true,
+  "lesson 4/test_string_utils_1.py::test_negative_space_cap": true,
+  "lesson 4/test_string_utils_1.py::test_negative_cap_none": true,
+  "lesson 4/test_string_utils_1.py::test_negative_trim_none": true,
+  "lesson 4/test_string_utils_1.py::test_negative_to_list_none": true,
+  "lesson 4/test_string_utils_1.py::test_negative_contains_none": true,
+  "lesson 4/test_string_utils_1.py::test_negative_del_symbol_none": true,
+  "lesson 4/test_string_utils_1.py::test_negative_starts_with_none": true,
+  "lesson 4/test_string_utils_1.py::test_negative_end_with_none": true,
+  "lesson 4/test_string_utils_1.py::test_negative_is_empty_none": true,
+  "lesson 4/test_string_utils_1.py::test_negative_end_with_none_": true,
+  "lesson 4/test_string_utils_1.py::test_negative_contains_none_": true,
+  "lesson 4/test_string_utils_1.py::test_negative_del_symbol_none_": true,
+  "lesson 4/test_string_utils_1.py::test_cap": true
+}

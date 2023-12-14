@@ -136,6 +136,7 @@ def test_negative_is_empty_none ():
 def test_negative_list_to_string_none ():
     assert text.list_to_string([]) == ""
     
+@pytest.mark.negative 
 def test_negative_list_to_string_ ():
     assert text.list_to_string([ ]) == "" 
     
