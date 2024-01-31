@@ -12,3 +12,6 @@ https://skyengpublic.notion.site/pytest-4b9f486a9d204b82a7f277286cd5a3eb
 
 # QAHW1.3 lesson 5
 https://skyengpublic.notion.site/UI-606e383fed5e4126ba5461d3f6ffc88a
+
+# QAHW1.3 lesson 6
+https://skyengpublic.notion.site/Selenium-e732682b1b394e95a06b72bf552376de
